@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class CompoundAsignmentOp
+{
+  public static void main(String[] args)
+  {
+      int x,y;
+      Scanner sc=new Scanner(System.in);
+      x=sc.nextInt();
+      y=sc.nextInt();
+      x+=y;
+      System.out.println(x+" += is "+x);
+      x-=y;
+      System.out.println(x+" -= "+y+" is "+x);
+      x*=y;
+      System.out.println(x+" *= "+y+" is "+x);
+      x/=y;
+      System.out.println(x+" /= "+y+" is "+x);
+      x%=y;
+      System.out.println(x+" %= "+y+" is "+x);
+      x&=y;
+      System.out.println(x+" &= "+y+" is "+x);
+      x|=y;
+      System.out.println(x+" |= "+y+" is "+x);
+       x^=y;
+      System.out.println(x+" ^= "+y+" is "+x);
+    }
+ }
+        
